@@ -1,0 +1,28 @@
+@startuml
+entity comments{
+  * comment_id
+  --
+  * content
+  * nickname
+  * picture_id
+}
+
+entity pictures{
+  * picture_id
+  --
+  * name
+  * extension
+  * album_id
+  * size
+  * date
+}
+
+entity album {
+  * album_id
+  --
+  * name
+}
+
+
+
+@enduml
